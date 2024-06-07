@@ -66,6 +66,4 @@ int main() {
 	bottle<sp> b;
 	bottle<cilinder{12, 2}> c;
 
-	return 0;
 }
-
