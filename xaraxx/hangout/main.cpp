@@ -45,7 +45,28 @@ void run(){
 		void displayBoard(std::string hiddenWord, int tries);
 		std::cin >> currentLetter;
 	        std::cout << "Escoja una letra: " << currentLetter << "\n";
+		
+		// create a variable letter_indexes which is a vector
+		for (int i = 0; i <= stringLen; i++){
+			if (word[i] == currentLetter){
+				// apend i in letterIndexes
+			}
+		} 
 
+		// define a variable lenLetterIndexes
+		int lenLetterIndexes;
+		if (lenLetterIndexes == 0){
+			tries++;
+			if (tries == 7){
+				displayBoard(hiddenWord, tries);
+				std::cout << "";
+				// include the word 
+				std::cout << "Perdiste la palabra correcta era "
+				break
+			}
+		} else {
+			//Translate the code when the player wins!! in this part.
+		}
 
 	}
 
